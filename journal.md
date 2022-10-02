@@ -1,4 +1,4 @@
-9 Metrics:
+Metrics:
 
 The score of the EcoIndex depends on the following metrics:
 
@@ -42,6 +42,9 @@ number social network button
 style sheets number
 eTags Ratio
 total Fonts Size
+
+
+Features:
 
 List of Features from Google Ligthhouse:
 
