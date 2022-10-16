@@ -81,7 +81,40 @@ grid = {'n_estimators': [5,10,20,30,50,100,200] ,
 print("The dataset contains", {urlscore.shape[0]}," samples and", {urlscore.shape[1]}," features")
 
 
+#function to get the feature importance to do the feature selection.
+#This functions create a list with with all the features importances that the model considers higher 
+#than the random variable
+#this allows to retrain the model without the features that are not important
 
+def feature_selection(importance_metric, X_train_number):
+    
+    r = pd.Series(importance_metric, index=X_train_number.columns)
+    r = r.sort_values(axis=0, ascending=False)
+    r = r.index.tolist()
+    features = []
+    for e in r:
+        if e == 'RandomNumber':
+            break
+        features.append(e)
+    
+    return features
+
+#Fucntion to get the most important features
+#Here, we consider that it is an important feature when its greater than 1, but that can be changed ! 
+
+def get_feature_importance(importance_metric, X_train_number):
+
+    feat = pd.Series(importance_metric*100, index=X_train_number.columns)
+    feat_s = feat.sort_values(axis=0, ascending=False)
+    feat = feat_s.index.tolist()
+    
+    features = []
+    for values in feat:
+        if feat_s[values] > 1 :
+            features.append(values)
+            
+    
+    return features
 
 
 
