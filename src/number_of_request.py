@@ -60,6 +60,7 @@ importances_nbRequest = random_rf2.best_estimator_.feature_importances_
 #get a list of the features that will be selected for the algorithm
 importance_nbRequest_list = get_feature_importance(importances_nbRequest, X_train2)
 print("")
+print("")
 print("list of the selected features for the algorithm")
 print(importance_nbRequest_list)
 
