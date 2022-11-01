@@ -64,4 +64,4 @@ Algorithm that recommend the best practices from the 49 practices to implement i
 
 9) Week of 31/10:
 
-- Finished codng the recommendation Algorithm
+- Finished coding the recommendation Algorithm
