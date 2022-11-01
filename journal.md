@@ -5,7 +5,7 @@ Journal - Date entries:
 - Project research: 
     Looked for ideas of project
 
-1) Week of 19/09:
+2) Week of 19/09:
 
 - Project definition
 - Project proposal
@@ -14,7 +14,7 @@ Journal - Date entries:
     - 500 urls of websites analyzed
 
 
-1) Week of 26/09:
+3) Week of 26/09:
 
 Data gathering, construction + exploration:
 
@@ -22,7 +22,7 @@ Data gathering, construction + exploration:
 - created 5 differents dataset, each one with different classes:
     - 2/3/4 or 5 classes to do the classification problems
 
-2) Week of 3/10:
+4) Week of 3/10:
 
 Worked on DomSize classification problem:
 - Random Forest Classification prediction 
@@ -32,7 +32,7 @@ Worked on DomSize classification problem:
     - used 3 classes for the classification as it is what yields highest resuts
 
 
-3) Week of 10/10:
+5) Week of 10/10:
 
 - Hyperparamter tuning with random search for DomSize
 - Random Forest classification problems for: 
@@ -41,7 +41,7 @@ Worked on DomSize classification problem:
     - First Contentful Paint
 
 
-5) Week of 17/10:
+6) Week of 17/10:
 
 - Random Forest classification + Hyperparamter tuning + feature selection + feature importance for: 
   
@@ -62,6 +62,6 @@ Algorithm that recommend the best practices from the 49 practices to implement i
         - and metric’s weight.
 
 
-9) Week of 31/10:
+8) Week of 31/10:
 
 - Finished coding the recommendation Algorithm
