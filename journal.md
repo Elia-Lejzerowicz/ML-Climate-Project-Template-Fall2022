@@ -56,7 +56,9 @@ Worked on DomSize classification problem:
 - Started to code the recommendation Algorithm:
 
 Algorithm that recommend the best practices from the 49 practices to implement in order to obtain a better Eco-index score and Google Lighthouse Performance score.
+
     The algotihm is based on a combination of:
+    
         - feature importance
         - complexity 
         - and metric’s weight.
