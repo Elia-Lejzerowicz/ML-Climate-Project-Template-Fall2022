@@ -82,5 +82,11 @@ Algorithm that recommend the best practices from the 49 practices to implement i
    
    + Display the graph
 
+10) Week of 14/11:
+
+    Thinking of using the Bayesian Optimization Method. 
+    
+    Indeed, it replies perfectly to my task which is to choose the best parameters to reach the highest score
+    
 
 
