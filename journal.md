@@ -73,9 +73,11 @@ Algorithm that recommend the best practices from the 49 practices to implement i
 
  - Coded the "apply recommenaton algoritm":
     - Firt try with only DomSize
+    
    It creates a new dataset by changing the ol dataset based on the recommendations 
    
    It then retrains the model with the changed values and predicts the new DomSize
+   
    It calculates the, hopeful, increase in the score of the Domsize
    
    + Display the graph
