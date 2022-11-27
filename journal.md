@@ -79,8 +79,7 @@ Algorithm that recommend the best practices from the 49 practices to implement i
    It then retrains the model with the changed values and predicts the new DomSize
    
    It calculates the, hopeful, increase in the score of the Domsize
-   
-   + Display the graph
+  
 
 10) Week of 14/11:
 
@@ -88,5 +87,10 @@ Algorithm that recommend the best practices from the 49 practices to implement i
     
     Indeed, it replies perfectly to my task which is to choose the best parameters to reach the highest score
     
+10) Week of 21/11:
 
+    Added the main algorithm notebook, that is a cleaned notebook that shows all the steps and why I did it
+    
+    It also contains a proof of the application by creating the new dataset
+    
 
