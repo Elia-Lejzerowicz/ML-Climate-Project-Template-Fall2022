@@ -7,12 +7,17 @@ Journal - Date entries:
 
 2) Week of 19/09:
 
-- Project definition
-- Project proposal
+- Spoke with Accenture Technology in france to help them on a project on Machine Learning for climate
+- Project definition + proposal
 - Data gathering:  
-    - Gathered data based on the analysis from google lighthouse and greenIT extension
-    - 500 urls of websites analyzed
-
+    - Gathered data based on the analysis from google lighthouse and greenIT extension 
+    
+    GreenIT : https://github.com/cnumr/GreenIT-Analysis/blob/master/README.md
+    GoogleLigthouse: https://developer.chrome.com/docs/lighthouse/overview/
+    
+      - 500 urls of websites analyzed:
+    https://github.com/Accenture/EcoSonar
+  
 
 3) Week of 26/09:
 
@@ -74,7 +79,7 @@ Algorithm that recommend the best practices from the 49 practices to implement i
  - Coded the "apply recommenaton algoritm":
     - Firt try with only DomSize
     
-   It creates a new dataset by changing the ol dataset based on the recommendations 
+   It creates a new dataset by changing the old dataset based on the recommendations 
    
    It then retrains the model with the changed values and predicts the new DomSize
    
@@ -93,4 +98,20 @@ Algorithm that recommend the best practices from the 49 practices to implement i
     
     It also contains a proof of the application by creating the new dataset
     
+11) Week of 28/11:
 
+  - Cleaned the Notebook
+  - Removed the old notebooks
+  - Tried other design of ML methods
+  - Created other design of ML algorithm: Moved to regression task instead of classification
+
+
+12) Week of 5/12:
+
+ - Final report
+
+
+13) Week of 12/12:
+
+
+    - Final report
