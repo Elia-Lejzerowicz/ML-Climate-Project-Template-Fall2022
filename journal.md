@@ -29,7 +29,7 @@ Data gathering, construction + exploration:
 
 4) Week of 3/10:
 
-Worked on DomSize classification problem:
+Worked on EcoIndex classification problem:
 - Random Forest Classification prediction 
 - Feature selection
 - Feature importance 
@@ -43,7 +43,7 @@ Worked on DomSize classification problem:
 - Random Forest classification problems for: 
     - Number of request
     - Size of the page
-    - First Contentful Paint
+    - DomSize
 
 
 6) Week of 17/10:
