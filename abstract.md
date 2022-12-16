@@ -1,8 +1,12 @@
 Today, the internet and the technologies supporting it account for 3.7% of total carbon emissions, which is equivalent to the entire airline industry. Moreover, this number is expected to double in the next 3 years. There is a need for change and impact. As a result, the goal of this research is to find a way to reduce the amount of carbon dioxide emitted from websites. Indeed, the more complex a website is, the more energy it will require to load and the greater its carbon emissions. There is a need to inform developers on what practices to implement in order to reduce their website’s carbon footprint. 
 
-We generated a dataset by analyzing more than 500 websites using two open-source audit tools: GreenIT-analysis and Google Lighthouse. Greenit retrieves a score calculated with 3 metrics: the size of the DOM, the number of requests, and the size of the page (formula:(https://blog.octo.com/wp-content/uploads/2021/01/1-5-ecoindex-formule-recolored.jpg) Then, Google Lighthouse also provides a score calculated with 6 metrics such as the speed index, the time to interactive, etc. Those Chrome extensions, along with further data preprocessing, provided a score from 0-100, measuring the level of implementation of the 50 best practices from GreenIt and Google Ligthouse. As a result, the the dataset contains 50 best practices recommended. Those practices could have a great impact on the carbon footprint if better implemented. 
+We generated a dataset by analyzing more than 500 websites using two open-source audit tools: GreenIT-analysis and Google Lighthouse. Greenit retrieves a score calculated with 3 metrics: the size of the DOM, the number of requests, and the size of the page (formula:(https://blog.octo.com/wp-content/uploads/2021/01/1-5-ecoindex-formule-recolored.jpg) Then, Google Lighthouse also provides a score calculated with 6 metrics such as the speed index, the time to interactive, etc. Those Chrome extensions, along with further data preprocessing, provided a score from 0-100, measuring the level of implementation of the 50 best practices recommended, which constitutes our dataset. As it is challenging for websites to implement all of the audit tools' suggested to improve the Eco-index score, we are interested in determining which factors have the greatest impact on the Eco-Index score. 
 
-Thus, this research aims to first calculate which practices have the most impact on a specific metric (from the 9 metrics analyzed). This will be calculated by performing 9 classification problems, with the practices as dependent variables (x) and the metric as the independent variable (y) . We will be able to calculate the importance of the features and thus discover the most relevant practices to implement among the 50 practices for each individual website. Then, we will generate a new dataset by applying the most important practices (manually increasing relevant scoes), and we will predict the new 9 metrics along with the eco-index score. This will enable us to predict how much a website is able to reduce its carbon footprint by applying relevant practices.
+Thus, this research aims to first calculate which of the 50 practices have the most impact on the EcoIndex score. In order to uncover the feature importance that corresponds to the most essential practices to implement, four machine learning regression tasks are conducted, and two different models are used and evaluated for each of those: Random Forest and XGboost. Then, we generated a new dataset by applying the most important practices (manually increasing relevant scores), and we predict the new eco-index score, to be able to measure the impact of applying only those recommendations.
+
+This study aims to provide simple and effective eco-concept recommendationa for websites and to aid developers. In addition, it is an expansion to the EcoIndex project (GreenIt.fr),  and an active contribution the EcoSonar (ecosonar.org) open-source project at Accenture Technology, which aims to build an application that provides targeted recommendations to websites. 
+
+
 
 Metrics:
 
@@ -78,8 +82,6 @@ List of Features from Google Ligthhouse:
 47. noDocumentWrite
 48. layoutShiftElements
 49. usesPassiveEventListeners
-
-
 
 
 
