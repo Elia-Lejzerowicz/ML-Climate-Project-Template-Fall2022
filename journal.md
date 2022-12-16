@@ -39,7 +39,7 @@ Worked on DomSize classification problem:
 
 5) Week of 10/10:
 
-- Hyperparamter tuning with random search for DomSize
+- Hyperparamter tuning with random search 
 - Random Forest classification problems for: 
     - Number of request
     - Size of the page
@@ -48,19 +48,14 @@ Worked on DomSize classification problem:
 
 6) Week of 17/10:
 
-- Random Forest classification + Hyperparamter tuning + feature selection + feature importance for: 
-  
-    - Speed Index
-    - Largest Contentful Paint
-    - Time to Interactive
-    - Total Blocking Time
-    - Cumulative Layout Shift
+- Changed to regression for all models (since we loose insights)
+- corrected the code as it used wrong features
 
 7) Week of 24/10:
 
 - Started to code the recommendation Algorithm:
 
-Algorithm that recommend the best practices from the 49 practices to implement in order to obtain a better Eco-index score and Google Lighthouse Performance score.
+Algorithm that recommend the best practices from the 50 practices to implement in order to obtain a better Eco-index score and Google Lighthouse Performance score.
 
     The algorithm is based on a combination of:
     
@@ -76,21 +71,17 @@ Algorithm that recommend the best practices from the 49 practices to implement i
 
 9) Week of 7/11:
 
- - Coded the "apply recommenaton algoritm":
-    - Firt try with only DomSize
-    
-   It creates a new dataset by changing the old dataset based on the recommendations 
+ 
+   Experiments: create a new dataset by changing the old dataset based on the recommendations 
    
-   It then retrains the model with the changed values and predicts the new DomSize
+   It then retrains the model with the changed values and predicts the new EcoIndex
    
    It calculates the, hopeful, increase in the score of the Domsize
   
 
 10) Week of 14/11:
 
-    Thinking of using the Bayesian Optimization Method. 
-    
-    Indeed, it replies perfectly to my task which is to choose the best parameters to reach the highest score
+    Implemented the Bayesian Optimization Method (saw in class)
     
 10) Week of 21/11:
 
